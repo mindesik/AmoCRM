@@ -1,5 +1,5 @@
 {
-  "name": "amocrm-js",
+  "name": "mds-amocrm-js",
   "version": "1.0.18",
   "description": "JS Library for AmoCRM",
   "main": "dist/AmoCRM.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/UsefulWeb/AmoCRM.git"
+    "url": "git+https://github.com/mindesik/AmoCRM.git"
   },
   "keywords": [
     "crm",
@@ -20,11 +20,14 @@
     "amo"
   ],
   "author": "Vladimir Yazykov",
+  "contributors": [
+    "Min De Sik <mindesik@icloud.com>"
+  ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/UsefulWeb/AmoCRM/issues"
+    "url": "https://github.com/mindesik/AmoCRM/issues"
   },
-  "homepage": "https://github.com/UsefulWeb/AmoCRM#readme",
+  "homepage": "https://github.com/mindesik/AmoCRM#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",

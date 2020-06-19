@@ -70,6 +70,12 @@ class DomainRequest extends EventResource {
     if ( !isGET && encodedData ) {
       headers[ 'Content-Length' ] = Buffer.byteLength( encodedData );
     }
+    
+    // V4 json
+    if (url.indexOf('/v4/') > -1) {
+      headers['Content-Type'] = 'application/json; charset=utf-8';
+    }
+    
     return headers;
   }
 

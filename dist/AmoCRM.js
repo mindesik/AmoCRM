@@ -92,6 +92,9 @@ var AmoCRM = function (_EventResource) {
         },
         post: function post(url, data, options) {
           return _this3._connection.request(url, data, 'POST', options);
+        },
+        put: function put(url, data, options) {
+          return _this3._connection.request(url, data, 'PATCH', options);
         }
       };
     }
